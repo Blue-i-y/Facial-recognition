@@ -37,7 +37,11 @@ for _ in images:
 
 Known_name_encoding.append(encoding)
 known__name.append(os.path.splitext(os.path.basename(image_path))[0].capitalize())
-
+"""
+os est une bibliothèque de python
+os.path.splitext est une fonction pour
+une extraction du 
+"""
 
 #TEST MODEL
 
@@ -47,4 +51,4 @@ image = cv2.imread(test_image)
 face_locations = fr.face_locations(image)
 face_encoding = fr.face_encoding(image, face_locations)
 
-for (top, right, bottom, left), face_encoding in 
+###for (top, right, bottom, left), face_encoding in 
